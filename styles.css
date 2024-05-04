@@ -1,0 +1,139 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: rgb(241, 135, 135);
+
+}
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.input-box {
+    width: 30%;
+    padding: 5px;
+    margin: 10px;
+    background-color: rgb(236, 210, 161);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    border: 1px solid rgb(165, 162, 162);
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    z-index: 1;
+    display: none;
+}
+#input-close{
+    font-size: large;
+    font-weight: bold;
+    position: absolute;
+    right: 10px;
+    padding: 2px;
+    cursor: pointer;
+}
+#title {
+    width: 80%;
+    margin: 10px;
+    padding: 3px;
+    height: 25px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(165, 162, 162);
+    font-size: large;
+
+}
+#description {
+    width: 80%;
+    min-height: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(165, 162, 162);
+    font-size: large;
+    
+}
+#add-btn {
+    width: 80%;
+    height: 30px;
+    background-color: rgb(91, 91, 240);
+    color: white;
+    outline: none;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: large;
+
+
+}
+ #clear-btn {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(243, 55, 55);
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+ #AddItem-btn {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(109, 168, 40);
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    margin: 20px;
+}
+.main {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+.box {
+    overflow: hidden;
+    width: 250px;
+    height: 180px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: rgb(236, 210, 161);
+    font-family: 'Courier New', Courier, monospace;
+    
+
+}
+.box h1 {
+    height: 35px;
+}
+.box p {
+    height: 100px;
+}
+#deleteBtn {
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(243, 55, 55);
+    color: white;
+    font-weight: bold;
+    
+}
+#updateBtn {
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(65, 141, 30);
+    color: white;
+    font-weight: bold;
+    
+}
